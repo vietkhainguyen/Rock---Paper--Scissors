@@ -1,0 +1,36 @@
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.start {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px 30px;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.play-button {
+  position: absolute;
+  background-color: #c2262e;
+  transform: translateX(280%);
+  margin-top: 50px;
+}
+
+.play-button:hover {
+  opacity: 0.8;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #105ed3;
+}
